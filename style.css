@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a;
+    font-family: helvetica;
+    animation: opacity 2s;
+}
+
+.box-left{
+    display: flex;
+    border: 1px rgb(255, 255, 255, 0.3) solid;
+    flex-direction: column;
+    width: 27%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.box-right{
+    text-align: center;
+    margin: auto;
+    flex-flow: nowrap;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    color: #fff;
+    margin-right: 10%;
+    margin-top: -61%;
+    font-size: 25px;
+    width: 50%;
+}
+
+.minha-foto{
+    width: 70%;
+    align-self: center;
+}
+
+#chamado-projetos-contatos{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: start;
+}
+
+a:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icons{
+    width: 10px;
+    transform: scale(3.0);
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 800px ){
+    .container .box-left{
+        width: 100%;
+        border: none;
+    }
+
+    a{
+        font-size: 20px;
+        border: 1px solid #fff;
+    }
+    
+    
+
+    .box-right{
+        display: none;
+        border: 1px solid rgb(255, 255, 255, 0.3);
+        text-align: center;
+        left: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre-mobile{
+        display: none;
+    }
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
