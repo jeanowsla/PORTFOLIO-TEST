@@ -1,2 +1,2 @@
 # PORTFOLIO-TEST
-This is just a portfolio test. I'am an begginer in HTML and CSS. 
+Esse é apenas um portfólio teste que eu fiz em HTML e CSS. Está incompleto. 
